@@ -13,8 +13,8 @@
         compatible = "zmk,combos";
 
         return {
-            bindings = <&kp RET>;
-            key-positions = <19 40>;
+            bindings = <&kp RETURN>;
+            key-positions = <19 20>;
         };
     };
 
@@ -84,7 +84,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        DoubleLayer {
+        admin {
             if-layers = <1 2>;
             then-layer = <3>;
         };
