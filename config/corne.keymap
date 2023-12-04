@@ -80,6 +80,17 @@
 
             label = "Admin";
         };
+
+        admin2 {
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans             &kp K_PLAY_PAUSE  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans             &trans            &trans  &trans  &trans
+                                        &trans        &trans        &trans          &trans      &trans             &trans
+            >;
+
+            label = "admin";
+        };
     };
 
     conditional_layers {
@@ -87,7 +98,7 @@
 
         admin {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 };
