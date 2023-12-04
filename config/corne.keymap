@@ -15,6 +15,7 @@
         return {
             bindings = <&kp RETURN>;
             key-positions = <19 20>;
+            layers = <0>;
         };
     };
 
