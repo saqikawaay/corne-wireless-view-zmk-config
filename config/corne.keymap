@@ -84,9 +84,12 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        admin {
+        admin_layer {
             if-layers = <1 2>;
             then-layer = <3>;
         };
     };
 };
+
+
+
