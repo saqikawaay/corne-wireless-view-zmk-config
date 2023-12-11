@@ -46,10 +46,10 @@
 
             label = "Higher";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7    &kp N8     &kp N9     &kp N0      &kp BSPC
-&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp UP    &kp DOWN   &kp RIGHT  &bt BT_PRV  &bt BT_NXT
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp RIGHT  &trans     &bt BT_CLR  &trans
-                           &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
+&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5    &kp N6    &kp N7     &kp N8     &kp N9     &kp N0      &kp BSPC
+&trans     &trans  &trans  &trans    &trans     &trans    &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT  &bt BT_PRV  &bt BT_NXT
+&kp LSHFT  &trans  &trans  &trans    &trans     &trans    &kp LEFT  &kp DOWN   &kp RIGHT  &trans     &bt BT_CLR  &trans
+                           &kp LGUI  &kp SPACE  &trans    &trans    &kp SPACE  &kp RALT
             >;
         };
 
@@ -65,7 +65,7 @@
 &kp TAB    &kp SQT          &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES     &kp PERIOD    &kp AMPS   &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp BSPC
 &kp LCTRL  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL             &kp HASH      &kp PIPE   &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp GRAVE
 &kp LSHFT  &kp CARET        &kp SLASH      &kp ASTERISK      &kp NON_US_BACKSLASH  &trans        &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp AT_SIGN   &kp TILDE
-                                           &kp LGUI          &trans                &kp SPACE     &kp RET    &trans     &kp RALT
+                                           &kp LGUI          &kp SPACE             &trans        &trans     &kp SPACE  &kp RALT
             >;
         };
 
