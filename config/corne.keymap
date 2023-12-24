@@ -62,10 +62,10 @@
 
             label = "Symbol";
             bindings = <
-&kp TAB    &kp SQT          &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES     &kp PERIOD    &kp AMPS   &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp BSPC
-&kp LCTRL  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL             &kp HASH      &kp PIPE   &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp GRAVE
-&kp LSHFT  &kp CARET        &kp SLASH      &kp ASTERISK      &kp NON_US_BACKSLASH  &trans        &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp AT_SIGN   &kp TILDE
-                                           &kp LGUI          &kp SPACE             &trans        &trans     &kp SPACE  &kp RALT
+&kp GRAVE  &kp SQT          &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp PERIOD    &kp AMPS   &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp BSPC
+&kp LCTRL  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH      &kp PIPE   &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp GRAVE
+&kp LSHFT  &kp CARET        &kp SLASH      &kp ASTERISK      &kp BACKSLASH      &trans        &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp AT_SIGN   &kp TILDE
+                                           &kp LGUI          &kp SPACE          &trans        &trans     &kp SPACE  &kp RALT
             >;
         };
 
